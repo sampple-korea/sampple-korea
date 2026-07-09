@@ -45,6 +45,7 @@ GitHub Actions로 자동 집계되는 공개 번역 기여 기록입니다.
 | local-dream | 1,040 | 297 | [#219](https://github.com/xororz/local-dream/pull/219) |
 | AntiSplit-M | 239 | 59 | [#662](https://github.com/AbdurazaaqMohammed/AntiSplit-M/pull/662) |
 | GameNative | 190 | 49 | [#1559](https://github.com/utkarshdalal/GameNative/pull/1559) |
+| tool | 0 | 0 | [#1](https://github.com/202510404-alt/tool/pull/1) |
 <!-- translation-stats:end -->
 
 ## Toolbox
