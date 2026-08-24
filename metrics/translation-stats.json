@@ -1,7 +1,7 @@
 {
-  "additions": 9348,
-  "changed_files": 26,
-  "changed_lines": 9673,
+  "additions": 10544,
+  "changed_files": 30,
+  "changed_lines": 10869,
   "classification": {
     "mode": "public merged PRs by author, then classify by Korean locale paths and count changed Android XML resource text",
     "strong_locale_path_pattern": "(^|/)(values-ko(?:-rkr)?|ko|ko[-_]kr|ko-rkr)(/|$|\\.)|(^|/)(?:intl_|messages_|strings[-_])?ko(?:[-_]kr)?\\.(?:arb|json|ya?ml|po|pot|ts|tsx|js|jsx|xml|xlf|xliff|properties|strings)$|(^|/)readme[._-]ko(?:[-_]kr)?\\.md$",
@@ -9,8 +9,56 @@
     "weak_translation_path_pattern": "(^|/)(?:i18n|l10n|locale|locales|lang|langs|language|languages|translation|translations|crowdin|weblate)(/|$)|locales_config\\.xml$|LocaleUtils\\.(?:kt|java|swift|ts|tsx|js|jsx)$"
   },
   "deletions": 325,
-  "merged_translation_prs": 7,
+  "merged_translation_prs": 8,
   "pulls": [
+    {
+      "additions": 1196,
+      "changed_files": 4,
+      "changed_lines": 1196,
+      "deletions": 0,
+      "is_public": true,
+      "is_translation": true,
+      "ko_locale_files": [
+        "TMessagesProj/src/main/res/values-ko/strings_na.xml",
+        "TMessagesProj/src/main/res/values-ko/strings_nax.xml",
+        "TMessagesProj/src/main/res/values-ko/strings_naxf.xml",
+        "TMessagesProj/src/main/res/values-ko/strings_neko.xml"
+      ],
+      "merged_at": "2026-08-23T17:38:47Z",
+      "number": 88,
+      "repo": "Keeperorowner/NagramXF",
+      "signals": [
+        "title/body",
+        "ko-locale-path"
+      ],
+      "title": "feat: add Korean localization",
+      "translation_support_files": [],
+      "url": "https://github.com/Keeperorowner/NagramXF/pull/88",
+      "xml_changed_resources": 1150,
+      "xml_files": [
+        {
+          "changed_resources": 106,
+          "filename": "TMessagesProj/src/main/res/values-ko/strings_na.xml",
+          "xml_words": 361
+        },
+        {
+          "changed_resources": 509,
+          "filename": "TMessagesProj/src/main/res/values-ko/strings_nax.xml",
+          "xml_words": 1979
+        },
+        {
+          "changed_resources": 260,
+          "filename": "TMessagesProj/src/main/res/values-ko/strings_naxf.xml",
+          "xml_words": 924
+        },
+        {
+          "changed_resources": 275,
+          "filename": "TMessagesProj/src/main/res/values-ko/strings_neko.xml",
+          "xml_words": 929
+        }
+      ],
+      "xml_words": 4193
+    },
     {
       "additions": 476,
       "changed_files": 11,
@@ -229,9 +277,9 @@
       "xml_words": 28359
     }
   ],
-  "updated_at": "2026-07-09T06:58:07+00:00",
+  "updated_at": "2026-08-24T04:02:41+00:00",
   "user": "sampple-korea",
-  "xml_changed_resources": 8723,
-  "xml_files": 8,
-  "xml_words": 35648
+  "xml_changed_resources": 9873,
+  "xml_files": 12,
+  "xml_words": 39841
 }
