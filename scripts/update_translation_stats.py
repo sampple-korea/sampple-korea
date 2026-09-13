@@ -319,15 +319,23 @@ def format_int(value: int) -> str:
 
 
 def translation_table(stats: dict[str, Any]) -> str:
-    rows = [
-        "| Project | XML words | Resources | PR |",
-        "| --- | ---: | ---: | --- |",
-    ]
     pulls = sorted(
-        stats["pulls"],
+        [
+            pull
+            for pull in stats["pulls"]
+            if pull["xml_words"] > 0 or pull["xml_changed_resources"] > 0
+        ],
         key=lambda item: (item["xml_words"], item["xml_changed_resources"]),
         reverse=True,
     )
+    rows = [
+        f"**{format_int(stats['xml_words'])} translated XML words · "
+        f"{format_int(stats['xml_changed_resources'])} Android resources · "
+        f"{len(pulls)} measured PRs**",
+        "",
+        "| Project | XML words | Resources | PR |",
+        "| --- | ---: | ---: | --- |",
+    ]
     for pull in pulls:
         project = pull["repo"].split("/", 1)[-1]
         rows.append(
@@ -380,7 +388,11 @@ def main() -> int:
     pulls = search_merged_prs()
     all_pull_stats = [fetch_pull_stats(url, seed) for url, seed in sorted(pulls.items())]
     pull_stats = [
-        item for item in all_pull_stats if item["is_translation"] and item["is_public"]
+        item
+        for item in all_pull_stats
+        if item["is_translation"]
+        and item["is_public"]
+        and (item["xml_words"] > 0 or item["xml_changed_resources"] > 0)
     ]
     pull_stats.sort(key=lambda item: item.get("merged_at") or "", reverse=True)
 
