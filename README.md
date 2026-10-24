@@ -24,10 +24,6 @@
 
 <sub>최신 프로젝트</sub>
 
-<p align="center">
-  <a href="https://github.com/sampple-korea/dynamicisland"><img src="https://raw.githubusercontent.com/sampple-korea/dynamicisland/main/docs/hero.png" alt="Dynamic Island: live cards for Samsung One UI" width="760"></a>
-</p>
-
 <h3 align="center"><a href="https://github.com/sampple-korea/dynamicisland">Dynamic Island for Samsung One UI</a></h3>
 
 <p align="center">
@@ -59,7 +55,6 @@
 | Project | Overview |
 | --- | --- |
 | [**Dynamic Island**](https://github.com/sampple-korea/dynamicisland) | A Dynamic Island for Samsung One UI: calls, music, navigation, timers and ordinary notifications as live cards, in five languages.<br><sub>삼성 One UI용 Dynamic Island. 통화·음악·길안내·타이머와 일반 알림을 라이브 카드로 보여 줍니다.</sub> |
-| [**beat-codex**](https://github.com/sampple-korea/beat-codex) | A standalone Codex CLI powered by BeAT models while preserving the TUI, local tools, sessions, and approval flow.<br><sub>Codex의 TUI, 로컬 도구, 세션과 승인 흐름을 유지하면서 BeAT 모델을 사용하는 독립형 CLI</sub> |
 | [**AuroraPure**](https://github.com/sampple-korea/AuroraPure) | An Android app and desktop CLI that discovers and downloads the APK configuration Google Play actually delivers to a device.<br><sub>Google Play가 기기에 실제 전달하는 APK 구성을 탐색하고 저장하는 Android 앱·데스크톱 CLI</sub> |
 | [**MES**](https://github.com/sampple-korea/MES) | An advanced mobile-first userscript for selecting page elements and managing resilient dynamic hiding rules.<br><sub>모바일 웹에서 요소를 선택하고 동적 숨김 규칙을 관리하는 고급 userscript</sub> |
 | [**Miru Live**](https://github.com/sampple-korea/mirulive) | A desktop AI companion combining Live2D, realtime voice, local memory, and optional voice conversion.<br><sub>Live2D, 실시간 AI 음성, 로컬 기억과 음성 변환을 결합한 데스크톱 동반자</sub> |
@@ -68,7 +63,6 @@
 
 <sub>AI · 개발 도구</sub>
 
-- [**beat-cli**](https://github.com/sampple-korea/beat-cli) — BeAT terminal client, Codex integration, and a local OpenAI-compatible gateway.<br><sub>BeAT 터미널 클라이언트, Codex 연결과 로컬 OpenAI 호환 게이트웨이</sub>
 - [**codex-web-workstation**](https://github.com/sampple-korea/codex-web-workstation) — A serverless feasibility harness for running the official Codex app-server in the browser through `container2wasm`.<br><sub>공식 Codex app-server를 `container2wasm`으로 브라우저에서 실행하는 무서버 타당성 검증</sub>
 - [**chalna-android**](https://github.com/sampple-korea/chalna-android) — An Android app that triggers local video capture through the system assistant flow.<br><sub>Android 어시스턴트 호출로 로컬 영상 캡처를 제어하는 앱</sub>
 
